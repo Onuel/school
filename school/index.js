@@ -29,7 +29,7 @@ app.set('view engine', 'ejs');
 app.set('views','views');
 
 var port = process.env.PORT || 6767;
-var ip = process.env.IP || '0.0.0.0';
+var ip = process.env.IP || '127.0.0.1';
 app.listen(port,ip);
 
 

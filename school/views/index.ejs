@@ -1,0 +1,22 @@
+<% include ./partials/header %>
+    <% include ./partials/nav %>
+        <br>
+
+        <body class="style">
+
+            <% data.forEach(function(data){ %>
+
+                <div class="container-fluid">
+
+                
+                    <h3>
+                        <%= data.firstname %>
+                            <%= data.middlename %>
+                                <%= data.lastname %>
+                    </h3>
+                    <h3><span><%= data.created.toDateString() %></span></h3>
+                    <a href="/student<%= data._id %>">Details</a>
+                </div>
+             <% }) %>
+             <% include ./partials/footer %>
+        </body>
