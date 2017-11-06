@@ -1,0 +1,22 @@
+{
+  "name": "school_info",
+  "version": "1.0.0",
+  "description": "school information system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "emmanuel o",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.0",
+    "morgan": "^1.9.0"
+  }
+}
